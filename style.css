@@ -208,17 +208,16 @@ small span{
 
 /* mobile device
 ---------------- */
-@media (max-width:688px){
+@media only screen and (max-width:688px){
     body{
         overflow-x: hidden;
         width: 100%;
+        scroll-behavior: smooth;
     }
     
     .conatainer{
-        width: 688px;
         display: flex;
-        flex-direction: column;
-        background-color: green;
+        flex-direction: column;   
     }
     
     .blogs{
