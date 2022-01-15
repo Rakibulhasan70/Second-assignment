@@ -148,7 +148,7 @@ section h2{
 }
  .left img{
      width: 60%;
-     padding-left:50px ;
+     padding-left:80px ;
  }
  .right form{
      display: flex;
@@ -237,4 +237,19 @@ small span{
         width: 40%;
     }
 } 
+/* tablet querry
+----------------- */
+@media only screen and (max-width:992px){
+    .conatainer{
+        flex-direction: column;
+        
+    }
+    .mainbox{
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 30px;
+    }
+    .blogs img {
+        width: 400px;
+    }
+}
 
