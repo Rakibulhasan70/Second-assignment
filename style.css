@@ -63,7 +63,7 @@ header{
     width: 60%;
 }
  .highlight{
-    background-color: #eb7e7e;
+    background-color: #dd5151;
     padding: 10px 24px;
     border-radius: 20px;
     margin-bottom: 30px;
@@ -166,3 +166,37 @@ section h2{
      font-size:15px;
      color: black;
  }
+
+ /* footer styles
+ ---------------- */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    background-color: rgb(9, 9, 51);
+    color: white;
+    margin-top: 20px;
+    height: 220px;
+}
+.footer h3{
+    padding-left: 30px;
+    font-size: 20px;
+}
+small{
+    line-height: 30px;
+     color: #b6bbc9;
+     font-size: 13px;
+     padding-left: 20px;
+}
+small span{
+    padding-left:70px ;
+}
+.Icone{
+    padding-left: 80px;
+    font-size: 20px;
+    padding-top: 10px;
+    color: rgb(230, 221, 221);
+    
+}
