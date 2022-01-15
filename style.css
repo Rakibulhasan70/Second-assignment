@@ -148,7 +148,7 @@ section h2{
     
 }
  .left img{
-     width: 100%;
+     width: 50%;
      padding-left: 70px;
  }
  .right form{
@@ -233,6 +233,9 @@ small span{
     .contact{
         width: fit-content;
         grid-template-columns: none;
+    }
+    .left img{
+        width: 50%;
     }
 } 
 
