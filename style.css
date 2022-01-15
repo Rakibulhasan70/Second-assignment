@@ -69,6 +69,13 @@ header{
     margin-bottom: 30px;
     color: white;
 }
+.main-camera:hover{
+    transform:rotate(45deg);
+}
+.main-camera:hover {
+    transition-duration: 2s;
+    
+}
 
 /*------------------
  grid colomn styles
@@ -126,3 +133,36 @@ section>.button-2{
     color: black;
 }
 
+/* form styles
+------------=--*/
+section h2{
+    font-size: 3em;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 1200px;
+}
+ .left img{
+     width: 100%;
+     padding-left: 70px;
+ }
+ .right form{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width:100% ;
+ }
+ .text-field{
+     width: 60%;
+     margin: 10px 0;
+     padding: 10px;
+     font-size: 18px;
+    border: 1px solid #eb7e7e ;
+ }
+  .right button{
+     font-size:15px;
+     color: black;
+ }
