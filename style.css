@@ -215,6 +215,9 @@ small span{
         width: 100%;
         scroll-behavior: smooth;
     }
+    .head-menu p{
+        margin-left: 12px;
+    }
     
     .conatainer{
         display: flex;
