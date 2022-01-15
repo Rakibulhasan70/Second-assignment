@@ -231,9 +231,6 @@ small span{
     .blogs img {
         width: 400px;
     }
-    .blog img{
-        width: 50%;
-    }
     .mainbox{
         display: grid;
         grid-template-columns: repeat(1,1fr);
