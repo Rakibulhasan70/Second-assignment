@@ -225,6 +225,7 @@ small span{
     }
     .contact{
         width: fit-content;
+        grid-template-columns: none;
     }
 } 
 
